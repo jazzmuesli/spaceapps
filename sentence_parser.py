@@ -21,6 +21,3 @@ def parse(sentence):
   return (verbs, nouns)
 map_nouns = inverse(nouns)
 map_verbs = inverse(verbs)
-#print inverse(nouns), inverse
-for s in sentences:
-  print parse(s)
